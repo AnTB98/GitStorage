@@ -1,6 +1,4 @@
-packadd! dracula
 syntax on
-colo dracula
 
 let mapleader=" "
 nnoremap <space> <Nop>
@@ -15,7 +13,6 @@ nnoremap <leader>qq :q<Cr>
 autocmd FileType cpp nnoremap <leader>sf :w! C++files/
 
 filetype plugin indent on
-set termguicolors
 set autoindent
 set nowrap
 set belloff=all
@@ -28,7 +25,9 @@ call plug#begin('~/.vim/autoload/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot'
+Plug 'mhartington/oceanic-next'
 
 call plug#end()
 
 let g:airline_theme='luna'
+colo OceanicNext

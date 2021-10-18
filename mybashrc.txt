@@ -1,0 +1,4 @@
+alias ll='ls -la -color=auto'
+alias bashconfig='vim .bashrc'
+alias bashreset='source .bashrc'
+export PS1='\[\e[31m\][\[\e[34m\]\u\[\e[31m\]]|[\[\e[33m\]\w\[\e[31m\]]\n►\[\e[00m\]'
